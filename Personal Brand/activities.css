@@ -1,0 +1,88 @@
+#activities{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; 
+    height: 80vh;
+    color:azure;
+    background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url("stars.jpg");
+  background-position: center center;
+
+  
+}
+
+#activities h3{
+    font-weight: bold;
+
+    position: relative;
+    bottom: 100px;
+}
+#activities .container{
+    padding: 150px 12px;
+}
+
+#activities h2{
+    margin-top: 0;
+    color:rgb(231, 178, 99);
+    font-weight: bold;
+}
+
+#activities p{
+
+    
+
+}
+
+#activities .cali{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 80px;
+    margin: 70px;
+    border-radius: 12px;    
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      )
+      , url("buff.jpg");
+
+}
+
+#activities .filo{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 60px;
+    margin: 70px;
+    border-radius: 12px;
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      )
+      , url("donjuan.jpg");
+}
+
+#activities .cs{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 30px;
+    margin: 70px;
+    border-radius: 12px;
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      )
+      , url("turing.jpg");
+}
+

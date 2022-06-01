@@ -1,0 +1,36 @@
+header {
+    background-color: rgb(248, 247, 255);
+  }
+  
+  header .logo {
+    margin: 0;
+    padding: 12px 24px;
+    font-weight: bold;
+    color:rgb(1, 0, 2);
+    font-size: 1.6em;
+  }
+  
+  
+  header .container{
+    display:flex;
+    flex-direction: column;
+  }
+  
+  header nav{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  header a{
+    font-size:1.2em;
+    font-weight: bold;
+    padding: 5px 12px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  header a:hover{
+    color:rgb(231, 178, 99);
+  }

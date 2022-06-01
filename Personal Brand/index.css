@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: OCR A Std, monospace;
+    margin: 0;
+    background-color: rgb(213, 212, 223);
+
+}
+h1 {font-size: 1.8em;}
+h2 {font-size: 1.5em;}
+p{font-size:1.3em;}
+
+.container{
+  max-width: 1400px;
+  margin: auto;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column; 
+  height: 25vh;
+  color:azure;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+)
+,url("stars.jpg");
+background-position: center center;
+}
+
+footer .container{
+  padding: 15px 10px;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+@media (min-width: 1200px) {
+
+  header {
+    position: fixed;
+    width: 100%;
+  }
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 30px;
+  }
+
+  #aboutme .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #aboutme .text{
+    width: 50%;
+    text-align: justify;
+    padding-left: 50px;
+    max-width: 600%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #aboutme .img-container{
+    background-image: url("me.jpg");
+
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+    width: 600px;
+  }
+
+  #aboutme h2{
+    margin-top: 0px;
+  }
+
+  #activities .ojo{
+    display: flex;
+    justify-content: center;
+  }
+
+  #activities p{
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  #activities h3{
+    margin-top: 0;
+  }
+  #activities .cali{
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+  }
+  #activities .filo{
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+  }
+  #activities .cs{
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+  }
+  #activities .cali{
+
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      )
+      , url("buff.jpg");
+
+}
+
+#activities .filo{
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      )
+      , url("donjuan.jpg");
+}
+
+#activities .cs{
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      )
+      , url("turing.jpg");
+}
+
+}
+
