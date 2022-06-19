@@ -38,7 +38,7 @@ h6 {
 
 h1 {
     font-size: 50px;
-    color: blueviolet;
+    color: rgb(217, 20, 72);
 }
 
 
@@ -93,7 +93,7 @@ nav {
 }
 
 .enlaces-header a:hover{
-    color: blueviolet;
+    color: rgb(217, 20, 72);
 }
 
 .hamburguer {
@@ -120,9 +120,10 @@ nav {
 }
 
 .contenido-header>img {
-    width: 550px;
+    width: 360px;
     animation: ease-in animat 1s;
 }
+
 
 @keyframes animat {
     0% {
@@ -178,13 +179,12 @@ nav {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    /height: 90vh;/
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/aboutus.jpg");
+    ,url("media/storm1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -238,12 +238,12 @@ nav {
     transition: 0.5s;
     background-position: center center;
     background-size: cover;
-    background-image: url("media/product.JPG");
+    /*background-image: url("media/product.JPG");*/
     font-weight: bold;
 }
 
 .articulo:hover {
-    box-shadow: 0 4px 10px blueviolet;
+    box-shadow: 0 4px 10px rgb(217, 20, 72);
 }
 
 .articulo>i {
@@ -344,46 +344,7 @@ nav {
     transform: translateY(1px);
   }
 
-/* Questions */
 
-  
-.questions {
-    height: 600px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.questions>img {
-    width: 550px;
-}
-
-.textos-questions {
-    margin: 0 0 0 30px;
-}
-
-.textos-questions p {
-    font-weight: 100;
-    margin-top: 14px;
-    color: #5D6678;
-}
-
-
-.textos-questions a {
-    margin: 28px 0 0 0;
-    width: 130px;
-    display: inline-block;
-    background: #1FDE82;
-    text-align: center;
-    color: #fff;
-    padding: 12px 0;
-    text-decoration: none;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 14px;
-    border-radius: 5px;
-    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
-}
 
 /* Results */
 
@@ -394,98 +355,199 @@ nav {
     background: #14161b;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/storm1.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
 }
 
 .conten-results {
     justify-content: space-evenly;
+    display: flex;
 }
 
 .numbers {
 
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .number:first-child {
-    width: 45%;
-    background: rgba(255, 255, 255, .2);
-    color: #fff;
-    border-radius: 15px;
-    padding: 40px 40px;
-    margin-bottom: 20px;
+  
+    background: #14161b;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+.number .img{
+
+    background-image: url("media/ja1.jpg");
+    
+    padding: 100px 135px;
     background-position: center center;
     background-size: cover;
 
+}
+
+.number .texto{
+    padding: 20px 20px;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/ja.jpg");
+    ,url("media/storm1.jpg");
+    background-position: center center;
+    background-size: cover;
+    
 }
 
 .number:nth-child(2) {
-    width: 45%;
-    background: rgba(255, 255, 255, .2);
-    color: #fff;
-    border-radius: 15px;
-    padding: 40px 40px;
-    margin-bottom: 20px;
+
+    background: #14161b;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+.number .img1{
+
+
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("media/ij.JPG");
+    
+    padding: 100px 135px;
     background-position: center center;
     background-size: cover;
 
+}
+
+.number .texto{
+    padding: 20px 20px;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/ij.JPG");
-}    
+    ,url("media/storm1.jpg");
+    background-position: center center;
+    background-size: cover;
+    
+}
 
 .number:nth-child(3) {
-    width: 45%;
-    background: rgba(255, 255, 255, .2);
-    color: #fff;
-    border-radius: 15px;
-    padding: 40px 40px;
-    margin-bottom: 20px;
+
+    background: #14161b;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+.number .img2{
+
+
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("media/as.JPG");
+    
+    padding: 100px 135px;
     background-position: center center;
     background-size: cover;
 
+}
+
+.number .texto{
+    padding: 20px 20px;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/as.JPG");
-}    
+    ,url("media/storm1.jpg");
+    background-position: center center;
+    background-size: cover;
+    
+}
+.number:nth-child(4) {
+   
+    background: #14161b;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+.number .img3{
 
 
-.number:last-child{
-    width: 45%;
-    background: rgba(255, 255, 255, .2);
-    color: #fff;
-    border-radius: 15px;
-    padding: 40px 40px;
-    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("media/reinoso.JPG");
+    
+    padding: 100px 135px;
     background-position: center center;
     background-size: cover;
 
+}
+
+.number .texto{
+    padding: 20px 20px;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/reinoso.JPG");
+    ,url("media/storm1.jpg");
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.number:last-child {
+ 
+    background: #14161b;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+.number .img4{
+
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("media/matt.jpeg");
+    
+    padding: 100px 135px;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.number .texto{
+    padding: 20px 20px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/storm1.jpg");
+    background-position: center center;
+    background-size: cover;
+    
 }
 
 
+
+
 .numbers .number h4 {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 20px;
@@ -545,7 +607,9 @@ nav {
 
 .box-skills h4 {
     font-size: 24px;
-    background: #f2f2f2;
+    background-color: #7d838e;
+    background-position: center center;
+    background-size: cover;
     width: 350px;
     border-radius: 6px;
     padding: 10px 0 10px 15px;
@@ -592,7 +656,7 @@ footer {
 
 
 .partFooter a:hover {
-    color: blueviolet;
+    color: rgb(217, 20, 72);
 }
 
 .partFooter img {
@@ -617,8 +681,8 @@ footer {
 
 .social-media i:hover {
     color: #fff;
-    background-color: blueviolet;
-    border-color: blueviolet;
+    background-color: rgb(217, 20, 72);
+    border-color: rgb(217, 20, 72);
 }
 
 /* Breakpoints responsive */
